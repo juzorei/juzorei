@@ -23,6 +23,10 @@ small examples built for this portfolio, not previous client projects.
   and use parameterized queries for create, read, update and delete operations.
 - [API report](https://github.com/juzorei/api-report-demo): paginate a public
   GitHub endpoint with schema validation and an explicit page budget.
+- [Webhook inbox](https://github.com/juzorei/webhook-inbox-demo): verify HMAC
+  signatures, persist deliveries and handle retries without inserting duplicates.
+- [Service log report](https://github.com/juzorei/service-log-report-demo): validate
+  JSONL logs and report latency percentiles, HTTP errors and hourly request totals.
 
 ## Engineering case studies
 
