@@ -40,11 +40,3 @@ evidence of client work.
   path planning and tools for inspecting navigation decisions.
 - [Poe Bot](https://github.com/juzorei/poe-bot-showcase): a game automation project
   extending an upstream codebase, with orchestration, diagnostics and operator controls.
-
-## Working together
-
-For a Python task, send a sample input, the output you need, and the conditions
-the result must pass. I use those details to define the scope and verification
-before implementation.
-
-[Freelance profile on LaborX](https://laborx.com/freelancers/users/id475922)
