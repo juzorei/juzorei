@@ -1,4 +1,4 @@
-# Denis · juzorei
+#· juzorei
 
 I build Python tools for repetitive work: data collection, CSV processing,
 API integrations, bots, and checks that make failures easier to diagnose.
