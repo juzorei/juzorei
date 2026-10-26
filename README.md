@@ -13,6 +13,10 @@ I build automation in Python for software that has no API: game clients, website
 
 Tests are written alongside the code (pytest, TDD), and every tool is checked against real data before it's trusted.
 
+## Open source
+
+[**game-re-skills**](https://github.com/juzorei/game-re-skills): agent skills for game reverse engineering (pointer chains, AOB signatures, Unreal and Unity offsets, memory readers, patch-day recovery) and sigtool, a CLI that checks the agent's results. Works with Claude Code, Codex, Cursor and other agents: `npx skills add juzorei/game-re-skills`.
+
 ## Case studies
 
 The source of these projects is private. Each repository is a detailed overview: what the system does, how it is built and where it is still incomplete. Available in English and Russian.
