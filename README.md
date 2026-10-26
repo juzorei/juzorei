@@ -1,42 +1,41 @@
-# · Juzorei
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="banner-dark.png">
+  <img src="banner-light.png" width="100%" alt="juzorei: Python automation for software without an API">
+</picture>
 
-I build Python tools for repetitive work: data collection, CSV processing,
-API integrations, bots, and checks that make failures easier to diagnose.
+<p>
+  <a href="https://juzorei.pages.dev">Website</a> ·
+  <a href="https://t.me/juzorei">Telegram</a> ·
+  <a href="https://discord.com/users/626829853320282145">Discord</a>
+</p>
 
-My projects combine application logic with the practical parts of automation:
-keeping track of interrupted work, validating inputs, testing edge cases,
-and showing an operator what happened.
+I build automation in Python for software that has no API: game clients, websites, desktop apps. Depending on the target, a program reads the screen with OpenCV, reads state straight from process memory, or drives a real browser through Playwright or Selenium.
 
-**Tools I use:** Python, pytest, Playwright, SQLite, HTTP APIs, Git and OpenCV.
-I also have a technical support background, including team leadership.
+Tests are written alongside the code (pytest, TDD), and every tool is checked against real data before it's trusted.
 
-## Runnable Python demos
+## Case studies
 
-Each demo includes source code, offline tests and setup instructions. These are
-small examples built for this portfolio, not previous client projects.
+The source of these projects is private. Each repository is a detailed overview: what the system does, how it is built and where it is still incomplete. Available in English and Russian.
 
-- [CSV cleanup](https://github.com/juzorei/csv-cleanup-demo): normalize cells,
-  remove duplicate rows and report changes.
-- [HTML catalog parser](https://github.com/juzorei/html-catalog-demo): extract
-  product links from saved HTML with same-origin URL checks.
-- [SQLite CRUD](https://github.com/juzorei/sqlite-crud-demo): validate records
-  and use parameterized queries for create, read, update and delete operations.
-- [API report](https://github.com/juzorei/api-report-demo): paginate a public
-  GitHub endpoint with schema validation and an explicit page budget.
-- [Webhook inbox](https://github.com/juzorei/webhook-inbox-demo): verify HMAC
-  signatures, persist deliveries and handle retries without inserting duplicates.
-- [Service log report](https://github.com/juzorei/service-log-report-demo): validate
-  JSONL logs and report latency percentiles, HTTP errors and hourly request totals.
+| Project | What it is |
+| --- | --- |
+| [**Stalbroker**](https://github.com/juzorei/stalbroker-showcase) | Stalcraft auction automation: screen recognition, buying and stack-split selling, crafting, market-data tools and controls for several Windows sessions. |
+| [**PoE 2 bot**](https://github.com/juzorei/poe-bot-showcase) | Path of Exile 2 mapping automation: map loop, A* navigation, combat priorities, inventory and stash handling, Atlas, restocking and PoeFleet runner controls. |
+| [**Torch**](https://github.com/juzorei/torch-showcase) | Torchlight Infinite campaign automation: memory and screen observation, navmesh routing with A* and funnel smoothing, a live route map and operator panels. |
 
-## Engineering case studies
+## Open demos
 
-These are documentation showcases of private projects. They describe the
-implementation and its limitations; they are not downloadable products or
-evidence of client work.
+Small runnable projects with source code, offline tests and setup instructions.
 
-- [Stalbroker](https://github.com/juzorei/stalbroker-showcase): auction automation,
-  inventory workflows, market-data processing and recovery across Windows sessions.
-- [Torch](https://github.com/juzorei/torch-showcase): state-driven automation,
-  path planning and tools for inspecting navigation decisions.
-- [Poe Bot](https://github.com/juzorei/poe-bot-showcase): a game automation project
-  extending an upstream codebase, with orchestration, diagnostics and operator controls.
+| Demo | What it shows |
+| --- | --- |
+| [webhook-inbox-demo](https://github.com/juzorei/webhook-inbox-demo) | HMAC signature checks, SQLite storage and duplicate-safe retries. |
+| [service-log-report-demo](https://github.com/juzorei/service-log-report-demo) | JSONL log validation, latency percentiles, HTTP errors and hourly totals. |
+| [api-report-demo](https://github.com/juzorei/api-report-demo) | Paginated GitHub API calls with schema validation and a page budget. |
+| [html-catalog-demo](https://github.com/juzorei/html-catalog-demo) | Link extraction from saved HTML with same-origin URL checks. |
+| [csv-cleanup-demo](https://github.com/juzorei/csv-cleanup-demo) | Cell normalisation, duplicate removal and a change report. |
+| [sqlite-crud-demo](https://github.com/juzorei/sqlite-crud-demo) | Validated records and parameterized create, read, update, delete. |
+
+## Tools
+
+Python, pytest, Playwright, Selenium, Requests, OpenCV, SQL and SQLite, REST APIs, Telegram API, Git.
