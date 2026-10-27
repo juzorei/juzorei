@@ -14,11 +14,6 @@ I build automation in Python for software that has no API: game clients, website
 Tests are written alongside the code (pytest, TDD), and every tool is checked against real data before it's trusted.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="stats-dark.png">
-  <img src="stats-light.png" width="100%" alt="3 case studies, 6 open demos with tests, 293 automated tests in the Torch bot, 8 months of Stalbroker uptime on two machines">
-</picture>
-
-<picture>
   <source media="(prefers-color-scheme: dark)" srcset="h-oss-dark.png">
   <img src="h-oss-light.png" width="440" alt="Open source">
 </picture>
