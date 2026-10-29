@@ -19,7 +19,8 @@ Tests are written alongside the code (pytest, TDD), and every tool is checked ag
 </picture>
 
 [**game-re-skills**](https://github.com/juzorei/game-re-skills): agent skills for game reverse engineering (pointer chains, AOB signatures, Unreal and Unity offsets, memory readers, patch-day recovery) and sigtool, a CLI that checks the agent's results.
-[**ci-autopsy**](https://github.com/juzorei/ci-autopsy): a CI triage skill and the autopsy CLI that classify failed GitHub Actions runs — infra noise, broken workflow or real test failure — before anyone reflexively reruns. Both install with `npx skills add`.
+[**ci-autopsy**](https://github.com/juzorei/ci-autopsy): a CI triage skill and the autopsy CLI that classify failed GitHub Actions runs — infra noise, broken workflow or real test failure — before anyone reflexively reruns.
+[**flakehunt**](https://github.com/juzorei/flakehunt): a flaky-test hunting skill and CLI that force honesty: prove the flake before fixing it, prove the fix after. All install with `npx skills add`.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="h-case-dark.png">
