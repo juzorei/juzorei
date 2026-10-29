@@ -18,7 +18,8 @@ Tests are written alongside the code (pytest, TDD), and every tool is checked ag
   <img src="h-oss-light.png" width="440" alt="Open source">
 </picture>
 
-[**game-re-skills**](https://github.com/juzorei/game-re-skills): agent skills for game reverse engineering (pointer chains, AOB signatures, Unreal and Unity offsets, memory readers, patch-day recovery) and sigtool, a CLI that checks the agent's results. Works with Claude Code, Codex, Cursor and other agents: `npx skills add juzorei/game-re-skills`.
+[**game-re-skills**](https://github.com/juzorei/game-re-skills): agent skills for game reverse engineering (pointer chains, AOB signatures, Unreal and Unity offsets, memory readers, patch-day recovery) and sigtool, a CLI that checks the agent's results.
+[**ci-autopsy**](https://github.com/juzorei/ci-autopsy): a CI triage skill and the autopsy CLI that classify failed GitHub Actions runs — infra noise, broken workflow or real test failure — before anyone reflexively reruns. Both install with `npx skills add`.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="h-case-dark.png">
