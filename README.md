@@ -24,7 +24,10 @@ Tests are written alongside the code (pytest, TDD), and every tool is checked ag
 [**migsentry**](https://github.com/juzorei/migsentry): migration safety review — catches the DDL that locks tables or breaks the running app before it deploys.
 [**skilldoctor**](https://github.com/juzorei/skilldoctor): audits agent skill installations for broken and shadowed skills.
 [**uitree**](https://github.com/juzorei/uitree): gives coding agents eyes for Windows desktop apps — the UI Automation tree instead of screenshots.
-[**harrecon**](https://github.com/juzorei/harrecon): turns a HAR capture into a private API's schemas and a typed client. All install with `npx skills add`.
+[**harrecon**](https://github.com/juzorei/harrecon): turns a HAR capture into a private API's schemas and a typed client.
+[**loglens**](https://github.com/juzorei/loglens): log triage — clusters a huge log into error templates with counts and incident spikes.
+[**hookbench**](https://github.com/juzorei/hookbench): webhook integration testing — capture, verify HMAC signatures, replay fixtures.
+[**bumpmap**](https://github.com/juzorei/bumpmap): dependency upgrade plans with risk classes, and the skill that lands breaking majors. All install with `npx skills add`.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="h-case-dark.png">
