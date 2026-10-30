@@ -22,7 +22,9 @@ Tests are written alongside the code (pytest, TDD), and every tool is checked ag
 [**ci-autopsy**](https://github.com/juzorei/ci-autopsy): a CI triage skill and the autopsy CLI that classify failed GitHub Actions runs — infra noise, broken workflow or real test failure — before anyone reflexively reruns.
 [**flakehunt**](https://github.com/juzorei/flakehunt): a flaky-test hunting skill and CLI that force honesty: prove the flake before fixing it, prove the fix after.
 [**migsentry**](https://github.com/juzorei/migsentry): migration safety review — catches the DDL that locks tables or breaks the running app before it deploys.
-[**skilldoctor**](https://github.com/juzorei/skilldoctor): audits agent skill installations for broken and shadowed skills. All install with `npx skills add`.
+[**skilldoctor**](https://github.com/juzorei/skilldoctor): audits agent skill installations for broken and shadowed skills.
+[**uitree**](https://github.com/juzorei/uitree): gives coding agents eyes for Windows desktop apps — the UI Automation tree instead of screenshots.
+[**harrecon**](https://github.com/juzorei/harrecon): turns a HAR capture into a private API's schemas and a typed client. All install with `npx skills add`.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="h-case-dark.png">
