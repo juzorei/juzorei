@@ -27,7 +27,8 @@ Tests are written alongside the code (pytest, TDD), and every tool is checked ag
 [**harrecon**](https://github.com/juzorei/harrecon): turns a HAR capture into a private API's schemas and a typed client.
 [**loglens**](https://github.com/juzorei/loglens): log triage — clusters a huge log into error templates with counts and incident spikes.
 [**hookbench**](https://github.com/juzorei/hookbench): webhook integration testing — capture, verify HMAC signatures, replay fixtures.
-[**bumpmap**](https://github.com/juzorei/bumpmap): dependency upgrade plans with risk classes, and the skill that lands breaking majors. All install with `npx skills add`.
+[**bumpmap**](https://github.com/juzorei/bumpmap): dependency upgrade plans with risk classes, and the skill that lands breaking majors.
+[**mcplens**](https://github.com/juzorei/mcplens): debugs AI agents themselves — a transparent MCP proxy plus loop/error audit over live traces and saved Claude Code & Codex transcripts. All install with `npx skills add`.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="h-case-dark.png">
